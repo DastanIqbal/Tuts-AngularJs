@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <script src="../lib/angular.js"></script>
+    <script src="../js/9.customfilters.js"></script>
+    <title>Custom Filters</title>
+</head>
+<body ng-controller='myAppController'>
+<p>{{data.plan0|stripDashes}}</p>
+<p>{{data.plan1|toTitleCase}}</p>
+<p>{{data.plan2|toTitleCase|stripDashes}}</p>
+<p>{{data.plan3|toTitleCase|stripDashes}}</p>
+</body>
+</html>
