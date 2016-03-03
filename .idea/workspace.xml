@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4734ce4e-dc06-47d4-9796-78fbfccb3ad0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/10.includefooter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuts/10.ngInclude.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/11.ngDirective.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuts/11.ngDirective.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AngularTuts.iws" />
@@ -25,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1.HelloAngular.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tuts/1.HelloAngular.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2.LiveUpdates_ngmodel.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tuts/2.LiveUpdates_ngmodel.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,12 +75,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="10.ngInclude.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="10.ngInclude.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tuts/10.ngInclude.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4735376">
+            <state vertical-scroll-proportion="-6.5384617">
               <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="11.ngDirective.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tuts/11.ngDirective.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.5">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="11.ngDirective.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/11.ngDirective.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7350649">
+              <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+              <folding>
+                <marker date="1457032189436" expanded="true" signature="468:497" placeholder="..." />
+                <marker date="1457032189436" expanded="true" signature="468:507" placeholder="..." />
+                <marker date="1457032189436" expanded="true" signature="668:707" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,6 +162,8 @@
         <option value="$PROJECT_DIR$/html/10.header.html" />
         <option value="$PROJECT_DIR$/html/10.includefooter.html" />
         <option value="$PROJECT_DIR$/tuts/10.ngInclude.html" />
+        <option value="$PROJECT_DIR$/tuts/11.ngDirective.html" />
+        <option value="$PROJECT_DIR$/js/11.ngDirective.js" />
       </list>
     </option>
   </component>
@@ -335,9 +351,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21205357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21205357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -492,9 +508,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tuts/10.ngInclude.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4735376">
+        <state vertical-scroll-proportion="-6.5384617">
           <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuts/11.ngDirective.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/11.ngDirective.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7350649">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding>
+            <marker date="1457032189436" expanded="true" signature="468:497" placeholder="..." />
+            <marker date="1457032189436" expanded="true" signature="468:507" placeholder="..." />
+            <marker date="1457032189436" expanded="true" signature="668:707" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
